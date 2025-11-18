@@ -31,11 +31,6 @@ export function handleSummary(data) {
 }
 
 export default function () {
-  const params = {
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  };
 
   const res = http.get('https://fakestoreapi.com/users');
 
